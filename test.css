@@ -1,0 +1,120 @@
+body{
+    font-family: "Yu Gothic", "Helvetica",sans-serif;
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main,section,header,footer,aside,nav{
+    padding: 20px;
+}
+
+header{
+    background-color: #3b853d;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+}
+
+nav{
+    background-color: #3b853d;
+    padding: 10px 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+nav li{
+    margin-right: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(3, 45, 5);
+}
+
+.section1 {
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-items p {
+    text-align: center;
+}
+
+.menu-item{
+    border: 1px solid#c3dbc4;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #94d897;
+}
+
+.menu-item:hover {
+    box-shadow: 0 2px 8px #4e805c;
+    padding: 10px;
+    margin: 10px;
+}
+
+form{
+    width: fit-content;
+    margin: auto;
+}
+
+input[type="text"],textarea{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #94d897;
+}
+
+button:hover {
+    background-color: #3b853d;
+}
+
+footer{
+    text-align: center;
+    background-color: #314436;
+    color: white;
+}

@@ -3,23 +3,75 @@
     <head>
         <meta charset="UFF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TNG CAFE</title>
         <link rel="stylesheet" href="test.css">
     </head>
 
+<body>
     <header>
-
-        
+        <h1>TNG CAFE</h1>
+        <p>心安らぐ一杯をあなたに</p>
     </header>
 
+    <nav>
+        <ul>
+          <li><a href="#section1">About Us</a></li>
+          <li><a href="#section2">Menu</Menu></a></li>
+          <li><a href="#section3">Contact</a></li>
+        </ul>
+    </nav>
+
     <main>
+        <!--セクション１-->
+        <div class="section1">
+            <section id="section1">
+                <h2>About Us</h2>
+                <p>TNG Cafeは事前の香りに包まれたリラックス空間を提供しています。<br>自家焙煎珈琲と手作りスイーツで、穏やかな時間をお過ごしください。</p>
+                <img src="images/cafe.jpg" alt="カフェの写真" width="300">
+            </section>
+        </div>
 
-    </main>
+        <!--セクション２-->
+        <section id="section2">
+            <h2>Menu</h2>
 
-    <section>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/coffee.jpg" alt="コーヒー" width="200">
+                    <p>ブレンドコーヒー</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/cake.jpg" alt="ケーキ" width="200">
+                    <p>ベイクドチーズケーキ</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/latte.jpg" alt="ラテ" width="200">
+                    <p>カフェラテ</p>
+                </div>
+            </div>
 
-    </section>
+        </section>
 
+        <!--セクション３-->
+        <section id="section3">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">お名前：</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="mail">メールアドレス：</label><br>
+                <input type="text" id="mail" name="mail"><br><br>
+
+                <label for="content">お問合せ内容：</label><br>
+                <textarea type="text" id="content" name="content" rows="4" cols="40"></textarea><br><br>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+</main>
+    <!--フッター-->
     <footer>
-
+        <p>&copy; 2026 TNG Cafe</p>
     </footer>
+</body>
 </html>
